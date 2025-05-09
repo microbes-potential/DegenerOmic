@@ -185,6 +185,6 @@ multiomics_integration.register_multiomics_integration_callbacks(app)
 degenerative_marker.register_degenerative_marker_callbacks(app)
 pathway_analysis.register_pathway_callbacks(app)
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
+if __name__ == "__main__":
+    app.run_server(host="0.0.0.0", port=8080, debug=True)
 
