@@ -3,3 +3,12 @@ dash-bootstrap-components
 pandas
 plotly
 networkx
+numpy
+scipy
+biopython
+matplotlib
+scikit-learn
+openpyxl
+statsmodels
+gprofiler-official
+kaleido
