@@ -12,6 +12,7 @@ import pathway_analysis
 
 # Initialize app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.FLATLY], suppress_callback_exceptions=True)
+app.title = "DegenerOmics"
 server = app.server
 
 # Preprocessing layout
